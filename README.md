@@ -28,3 +28,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 # vue-cli 引入axios及跨域使用
 https://segmentfault.com/a/1190000011072725#articleHeader13
+
+# vue-easytable 安装使用
+http://doc.huangsw.com/vue-easytable/app.html#/intro
