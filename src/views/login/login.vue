@@ -41,6 +41,7 @@ login(){
     this.$router.push('/home');
   }else {
     console.log('login failed !!!');
+    confirm("Sorry !你输入用户名或密码不正确!")
   }
 },
 register(){},

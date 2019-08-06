@@ -31,3 +31,16 @@ https://segmentfault.com/a/1190000011072725#articleHeader13
 
 # vue-easytable 安装使用
 http://doc.huangsw.com/vue-easytable/app.html#/intro
+
+# vue-lazyload 安装使用
+https://segmentfault.com/a/1190000011672452
+
+# vue 轮播Swiper
+https://www.swiper.com.cn/usage/index.html
+
+# vue中引入外部js,css
+https://blog.csdn.net/zfz5720/article/details/79412069
+
+```
+
+
