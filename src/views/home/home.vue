@@ -1,7 +1,9 @@
+/* eslint-disable */ 
 <template>
  <div id="home">
    <h1>{{msg}}</h1>
    <h2>Author: {{author}}</h2>
+   <router-link to="/shoplist">Music list</router-link>
    <center>
    <ul v-for="music in musics">
      <li>
@@ -45,4 +47,3 @@ li {
      text-align: center;
     }
 </style>
-

@@ -1,3 +1,4 @@
+/* eslint-disable */ 
 <template>
 <div>
         <div class="login-wrap" v-show="showLogin">
