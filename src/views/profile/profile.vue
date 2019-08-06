@@ -1,7 +1,5 @@
 <template>
 <div>
-  <link rel="stylesheet" href="http://at.alicdn.com/t/font_1312621_hxin5c57h67.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
    <div float="left">
    <span @click="go_back()" class="iconfont iconarrow-left-small pos">返回</span>
    </div>
