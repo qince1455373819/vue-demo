@@ -14,7 +14,7 @@ export default {
   name: 'App',
   mounted(){
   console.log('=============start===========');
-  this.$http.get('/index/playlist/detail?id=19723756',{}).then(function(res){console.log(res.data)}).catch(function(error){})
+  // this.$http.get('/index/playlist/detail?id=19723756',{}).then(function(res){console.log(res.data)}).catch(function(error){})
   }
 }
 </script>

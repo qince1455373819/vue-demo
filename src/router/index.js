@@ -4,7 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import login from '@/views/login/login.vue'
 import shoplist from '@/views/shoplist/shoplist.vue'
 import home from '@/views/home/home.vue'
-
+import profile from '@/views/profile/profile.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -20,6 +20,10 @@ export default new Router({
     {
       path: '/home',
       component: home
+    },
+    {
+      path: '/profile',
+      component: profile
     },
     {
       path: '/',

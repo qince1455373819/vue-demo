@@ -8,7 +8,12 @@ import VueResource from 'vue-resource'
 Vue.config.productionTip = false
 //Vue.prototype.HOST='/index'
 Vue.use(VueResource)
-
+Vue.use(VueLazyload,{
+  preLoad: 1.3,
+  error: '/static/img/error.png',
+  loading: '/static/img/loading.gif',
+  attempt: 1
+})
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
