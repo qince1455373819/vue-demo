@@ -3,6 +3,9 @@
    <div float="left">
    <span @click="go_back()" class="iconfont iconarrow-left-small pos">返回</span>
    </div>
+   <div float="right" style="margin-right: -800px;margin-top: -20px;">
+   <a @click="go_next()">下一页<span class="iconfont iconarrow-right-small"> </span></a>
+   </div>
   <h1>Vue-lazyload图片懒加载+ Vue 图片轮播</h1>
 <div class="swiper-container">
     <div class="swiper-wrapper">
@@ -58,7 +61,8 @@ mounted(){
   })       
 },
 methods:{
-  go_back(){this.$router.back(-1);}
+  go_back(){this.$router.back(-1);},
+  go_next(){this.$router.push('/music')}
 }
 
 }

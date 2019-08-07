@@ -13,8 +13,8 @@ import VueResource from 'vue-resource'
 export default {
   name: 'App',
   mounted(){
-  console.log('=============start===========');
-  // this.$http.get('/index/playlist/detail?id=19723756',{}).then(function(res){console.log(res.data)}).catch(function(error){})
+  console.log('=============Test API start===========');
+  //this.$http.get('/index/playlist/detail?id=19723756',{}).then(function(res){console.log(res.data)}).catch(function(error){})
   }
 }
 </script>

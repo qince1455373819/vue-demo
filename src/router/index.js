@@ -5,6 +5,7 @@ import login from '@/views/login/login.vue'
 import shoplist from '@/views/shoplist/shoplist.vue'
 import home from '@/views/home/home.vue'
 import profile from '@/views/profile/profile.vue'
+import music from '@/views/music/music.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -24,6 +25,10 @@ export default new Router({
     {
       path: '/profile',
       component: profile
+    },
+    {
+       path: '/music',
+       component: music
     },
     {
       path: '/',
